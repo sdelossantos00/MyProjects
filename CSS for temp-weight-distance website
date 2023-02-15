@@ -1,0 +1,135 @@
+* {
+    margin: 10px;
+}
+
+body{
+background-color: black;
+}
+
+#home {
+    background-color: grey;
+    margin-top: -1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    padding-bottom: 2cm;
+    padding-top: 1cm;
+}
+
+header {
+    font-size: 30px;
+    color: white;
+    float: left;
+    padding-left: 2cm;
+}
+
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+
+#home button {
+    color: rgb(196, 197, 199);
+    background-color: rgb(76, 109, 78);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#home button:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: darkgreen;
+    text-decoration: double;
+}
+
+#all-conversion-sections {
+    justify-content: center;
+    display: grid;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+#all-conversion-sections button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#all-conversion-sections button:hover {
+    cursor: pointer;
+}
+
+#all-conversion-sections section {
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+#temperature {
+    border-top-color: green;
+}
+
+#weight {
+    border-top-color: coral
+}
+
+#distance {
+    border-top-color: cyan
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#all-conversion-sections fieldset {
+    margin-left: 50px;
+}
+
+#go-home {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    left: 0px;
+}
+
+#go-home img {
+    width: 30px;
+    margin: auto;
+}
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+}
